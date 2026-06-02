@@ -120,7 +120,6 @@ function App() {
           href="/img/rodriguez_benitez_alex_cv.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          download
           className="site-footer-link cv-download-link"
           aria-label="Download CV"
         >

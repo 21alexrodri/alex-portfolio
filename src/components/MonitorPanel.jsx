@@ -255,7 +255,6 @@ function AboutApp() {
           href="/img/rodriguez_benitez_alex_cv.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          download
           className="mp-pdf-download-btn"
           aria-label="Download CV"
         >
@@ -298,7 +297,6 @@ function AboutApp() {
             href="/img/rodriguez_benitez_alex_cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download
             className="mp-cv-download-cta"
           >
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
