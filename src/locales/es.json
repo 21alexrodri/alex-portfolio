@@ -1,0 +1,174 @@
+{
+  "ui": {
+    "books": {
+      "header": "Biblioteca Personal",
+      "tabEducation": "Formación",
+      "tabExperience": "Experiencia",
+      "hint": "Haz clic en un libro para abrirlo",
+      "back": "← Volver a la estantería",
+      "certBtn": "↓ Descargar certificado",
+      "labelEducation": "Formación",
+      "labelExperience": "Experiencia"
+    },
+    "monitor": {
+      "hint": "Haz clic en una app para abrirla",
+      "browser": {
+        "freeNote": "tienda ficticia · sin pago real · solo por diversión",
+        "placeholder": "Tu nombre",
+        "noPayment": "Sin coste — solo deja tu nombre 🌸",
+        "buyBtn": "Comprar →",
+        "cancelBtn": "Cancelar",
+        "buying": "Comprando…"
+      },
+      "code": {
+        "explorer": "EXPLORADOR",
+        "empty": "Selecciona un proyecto"
+      },
+      "about": {
+        "role": "Especialista en IA y Big Data · Barcelona",
+        "aboutTitle": "Sobre mí",
+        "aboutText": "Me llamo Àlex Rodríguez Benítez y soy especialista en Inteligencia Artificial y Big Data apasionado por los retos en programación. Soy una persona ambiciosa, inconformista y creativa: no me conformo con lo básico, siempre busco la forma de hacerlo mejor.\n\nTengo formación especializada en IA y Big Data (600 horas) y Desarrollo de Aplicaciones Web, lo que me da una base sólida tanto en algoritmos de IA como en desarrollo full-stack.\n\nTrabajo principalmente con Python y sus bibliotecas principales para Machine Learning, Deep Learning, NLP y procesamiento de imágenes. Domino algoritmos de clasificación, regresión, clustering y redes neuronales.\n\nMe encanta aprender nuevas tecnologías, trabajar en proyectos desafiantes de IA y aportar soluciones creativas. Siempre con el objetivo de mantener la máxima calidad optimizando costes.\n\nDisfruto de la interacción y reuniones con clientes, así como del trabajo en equipo y la comunicación con diferentes perfiles. Me apasiona entender las necesidades del cliente y traducirlas en soluciones técnicas efectivas.\n\nBusco oportunidades como Desarrollador de IA / AI Engineer donde pueda aportar mis conocimientos en Machine Learning, Deep Learning y procesamiento de datos masivos, combinando habilidades técnicas con buena comunicación.",
+        "skillsTitle": "Tecnologías",
+        "contactTitle": "Contacto",
+        "location": "Barcelona, España"
+      }
+    },
+    "vase": {
+      "title": "Bloom Garden",
+      "countZero": "Sin flores todavía",
+      "count": "{{count}} flor comprada",
+      "count_other": "{{count}} flores compradas",
+      "loading": "Cargando…",
+      "error": "No se pudieron cargar las flores. ¿Está la API activa?",
+      "emptyTitle": "Nadie ha comprado una flor todavía.",
+      "emptySub": "Sé el primero — abre el ordenador y visita Bloom.",
+      "by": "de",
+      "justNow": "ahora mismo",
+      "mAgo": "hace {{n}}m",
+      "hAgo": "hace {{n}}h",
+      "dAgo": "hace {{n}}d"
+    },
+    "errors": {
+      "nameMin": "Mínimo 2 caracteres.",
+      "nameChars": "Solo letras, espacios, guiones y apóstrofes.",
+      "nameServer": "Algo fue mal. Inténtalo de nuevo.",
+      "nameNetwork": "No se pudo conectar al servidor."
+    },
+    "sceneHint": "toca los objetos para explorar"
+  },
+  "data": {
+    "flowers": [
+      { "id": 1, "name": "Rosa Alpina",  "emoji": "🌹", "price": 12, "desc": "Belleza clásica, cortada a mano." },
+      { "id": 2, "name": "Iris Azul",    "emoji": "🪻", "price": 9,  "desc": "Elegante y escasa. Stock limitado." },
+      { "id": 3, "name": "Girasol",      "emoji": "🌻", "price": 7,  "desc": "Irradia calidez y energía." },
+      { "id": 4, "name": "Lirio Blanco", "emoji": "🌷", "price": 18, "desc": "Misteriosa y delicada." }
+    ],
+    "education": [
+      {
+        "spine": "Grado Informática",
+        "period": "2026–hoy",
+        "title": "Grado en Ingeniería Informática",
+        "institution": "UOC · Universitat Oberta de Catalunya",
+        "description": "Actualmente me estoy formando en Ingeniería Informática con el Grado de la UOC en formato online, lo que me permite avanzar a mi ritmo mientras me concentro en mi trabajo y en mi desarrollo profesional. Mi objetivo es seguir creciendo en el sector tecnológico, combinando formación sólida con experiencia práctica.",
+        "tags": ["Algoritmos", "Sistemas", "Ingeniería del Software"],
+        "certificate": null
+      },
+      {
+        "spine": "IA & Big Data",
+        "period": "2025–2026",
+        "title": "Especialización — IA y Big Data",
+        "institution": "Institut Sa Palomera · Blanes",
+        "description": "El Curso de Especialización en Inteligencia Artificial y Big Data forma para programar y aplicar sistemas inteligentes que optimizan la gestión de la información y la explotación de datos masivos, garantizando seguridad, accesibilidad, usabilidad, calidad y cumplimiento de principios éticos y legales.\n\nMódulos: Modelos de IA, Machine Learning, Programación de IA, Sistemas de Big Data y Big Data aplicado. Trabajas principalmente con Python y herramientas como NumPy, Pandas, scikit-learn, TensorFlow, Keras, NLTK y BeautifulSoup. Aprendes algoritmos de clasificación, regresión, clustering, redes neuronales y técnicas como boosting (XGBoost, LightGBM, etc.).\n\nTambién trabajas con Docker, Hadoop, Spark y plataformas en la nube como AWS y Azure para gestionar y almacenar grandes volúmenes de datos, procesar datos masivos, visualizar y configurar cuadros de mando. Aplicas IA en negocios para mejorar productividad, automatizar procesos y gestionar la transformación digital.\n\nMi rendimiento académico y el proyecto final que desarrollé me han valido una carta de recomendación del centro, disponible a continuación.",
+        "tags": ["Python", "TensorFlow", "scikit-learn", "Docker", "Spark", "AWS", "Azure", "Big Data", "ML"],
+        "certificate": "/img/cr_sa_palomera.pdf"
+      },
+      {
+        "spine": "CFGS DAW",
+        "period": "2021–2023",
+        "title": "CFGS — Desarrollo de Aplicaciones Web",
+        "institution": "Institut Thos i Codina · Mataró",
+        "description": "Formación especializada en desarrollo web full-stack, cubriendo tanto el frontend como el backend. He adquirido competencias en programación web, bases de datos, servicios web, despliegue de aplicaciones y seguridad en entornos web.",
+        "tags": ["HTML", "CSS", "JavaScript", "PHP", "SQL", "Web Security"],
+        "certificate": null
+      }
+    ],
+    "experience": [
+      {
+        "spine": "Dev. Lead",
+        "period": "Dic 2024–hoy",
+        "title": "Software Development Lead",
+        "institution": "Tellmebye",
+        "description": "Liderazgo del desarrollo de software en Tellmebye. Responsable de la dirección técnica, definición de arquitectura, revisión de código y coordinación entre equipos.\n\nTellmebye es una empresa española pionera en innovación para el sector funerario, con más de 6 años transformando digitalmente el sector. Su producto principal es un software de gestión funeraria con eCommerce integrado, página de obituarios y difusión digital de servicios. También ofrecen el Muro de Recuerdo (Memorial Wall), una plataforma en línea donde las personas pueden crear un muro virtual para honrar la memoria de un ser querido, publicar fotografías, anécdotas y brindar un homenaje digital con condolences.\n\nLa empresa tiene sede en Mataró (Barcelona) y se ha internacionalizado a Latinoamérica, especialmente a México.\n\nDurante mi periodo en Tellmebye, fui parte esencial en la creación de:\n\n· Sistemas de automatización de funciones internas\n· Adaptación e integración con sistemas externos\n· Modernización visual y de software de toda la plataforma\n· Implementación de Inteligencia Artificial aplicada al sector funerario:\n    ↳ Restauración y recolorización de imágenes antiguas\n    ↳ Mejora de calidad de imágenes con IA\n\nSiempre priorizando soluciones económicas sin sacrificar calidad, evaluando todas las opciones posibles para optimizar costes.\n\nDurante esta etapa, Tellmebye ha conseguido ver su mayor crecimiento de clientes por año desde su fundación.\n\nMi trayectoria y aportaciones en Tellmebye me han valido una carta de recomendación por parte de la empresa, disponible a continuación.",
+        "tags": ["JavaScript", "PHP", "Git", "HTML", "CSS", "SQL", "AI Integration"],
+        "certificate": "/img/cr_tellmebye.pdf"
+      },
+      {
+        "spine": "Project Lead",
+        "period": "Oct 2024–Dic 2024",
+        "title": "Technical Project Lead",
+        "institution": "Mercantec · Dinamarca",
+        "description": "Durante 2 meses me desplacé a Dinamarca para liderar el desarrollo del proyecto 3D Print Archive en Mercantec, una institución educativa danesa.\n\nMi rol fue orquestar el proyecto desde el punto de vista técnico y de gestión: coordiné al equipo, tomé decisiones sobre arquitectura y priorización, y mantuve reuniones con el cliente cada 2 semanas en inglés para presentar el avance, resolver dudas y ajustar el alcance según las necesidades reales.\n\nMi desempeño al frente de este proyecto me ha valido una carta de recomendación de Mercantec, disponible a continuación.",
+        "tags": ["Liderazgo", "Arquitectura", "Agile", "Git"],
+        "certificate": "/img/cr_mercantec.pdf"
+      },
+      {
+        "spine": "Dev. Software",
+        "period": "Jun 2024–Oct 2024",
+        "title": "Desarrollador de Software",
+        "institution": "Tellmebye",
+        "description": "Desarrollo de software a tiempo completo en Tellmebye. Implementación de nuevas funcionalidades, resolución de errores y mejora del rendimiento y calidad del código.\n\nTellmebye es una empresa española pionera en innovación para el sector funerario, con más de 6 años transformando digitalmente el sector. Su producto principal es un software de gestión funeraria con eCommerce integrado, página de obituarios y difusión digital de servicios. También ofrecen el Muro de Recuerdo (Memorial Wall), una plataforma en línea donde las personas pueden crear un muro virtual para honrar la memoria de un ser querido, publicar fotografías, anécdotas y brindar un homenaje digital con condolences.\n\nLa empresa tiene sede en Mataró (Barcelona) y se ha internacionalizado a Latinoamérica, especialmente a México.\n\nTras consolidarme como desarrollador tras las prácticas, participé activamente en el ciclo completo de desarrollo de nuevas funcionalidades, desde el diseño técnico hasta el despliegue. Contribuí a la integración con servicios y APIs externas, y colaboré en la mejora continua de la calidad del código y la experiencia de usuario de la plataforma.\n\nMi trayectoria y aportaciones en Tellmebye me han valido una carta de recomendación por parte de la empresa, disponible a continuación.",
+        "tags": ["JavaScript", "PHP", "Git", "HTML", "CSS", "SQL"],
+        "certificate": "/img/cr_tellmebye.pdf"
+      },
+      {
+        "spine": "Prácticas",
+        "period": "Dic 2023–Jun 2024",
+        "title": "Prácticas — Desarrollador de Software",
+        "institution": "Tellmebye",
+        "description": "Prácticas de empresa centradas en el desarrollo de funcionalidades del producto principal. Colaboración con el equipo de ingeniería en sprints ágiles, contribuyendo tanto en frontend como en backend.\n\nTellmebye es una empresa española pionera en innovación para el sector funerario, con más de 6 años transformando digitalmente el sector. Su producto principal es un software de gestión funeraria con eCommerce integrado, página de obituarios y difusión digital de servicios. También ofrecen el Muro de Recuerdo (Memorial Wall), una plataforma en línea donde las personas pueden crear un muro virtual para honrar la memoria de un ser querido, publicar fotografías, anécdotas y brindar un homenaje digital con condolences.\n\nLa empresa tiene sede en Mataró (Barcelona) y se ha internacionalizado a Latinoamérica, especialmente a México.\n\nDurante mi estancia de prácticas, implementé mejoras visuales y de rendimiento en todo el software, incluyendo:\n\n· Visualización optimizada de muros de fallecidos en salas \"Memorial Wall Premium\"\n· Nueva funcionalidad de descarga de imágenes personalizadas para marcos digitales\n\nContribuí a mejorar la experiencia de usuario y el rendimiento general de la plataforma.\n\nMi trayectoria y aportaciones en Tellmebye me han valido una carta de recomendación por parte de la empresa, disponible a continuación.",
+        "tags": ["JavaScript", "PHP", "Git", "HTML", "CSS", "SQL"],
+        "certificate": "/img/cr_tellmebye.pdf"
+      }
+    ],
+    "projects": [
+      {
+        "id": "portfolio-3d",
+        "name": "Portfolio 3D",
+        "icon": "🌐",
+        "description": "En lugar de un portfolio tradicional, este es una habitación 3D completamente interactiva que puedes explorar desde el navegador — sin descargas, sin plugins.\n\n## ¿Qué esconde cada objeto?\n\n· 📚 Estantería → biblioteca animada de formación y experiencia laboral\n· 💻 Ordenador → OS simulado con tienda de flores, explorador de proyectos y about me\n· 🌸 Jarrón → feed en tiempo real de flores dejadas por visitantes de todo el mundo\n\n## Stack técnico\n\n· Modelado en Blender, renderizado con Three.js + React Three Fiber\n· Animaciones de vuelo de cámara con timelines de GSAP\n· UI en React con sistema i18n propio (ES / CA / EN)\n· Backend Node.js + Express · SQLite · rate limiting · filtro de contenido\n\n## Filosofía\n\nEl portfolio en sí mismo es el proyecto — no solo un escaparate, sino una declaración de intenciones.",
+        "tags": ["React", "Three.js", "Blender", "GSAP", "R3F"],
+        "url": null,
+        "github": "https://github.com/21alexrodri"
+      },
+      {
+        "id": "vibe-flying",
+        "name": "Vibe Flying",
+        "icon": "✈️",
+        "description": "Cuando buscas un vuelo, no sabes si el precio que ves es barato, caro o normal. Vibe Flying resuelve eso: cada oferta llega con un precio predicho por ML, una puntuación de calidad en 6 dimensiones y detección automática de chollos estadísticos — para que puedas decidir con criterio, no con intuición.\n\n## ¿Qué hace por el usuario?\n\n· 💸 Predictor de precio → un modelo LightGBM entrenado sobre miles de vuelos reales estima el precio justo de cada oferta. Si el precio real está muy por debajo, lo sabes. Si te están cobrando de más, también.\n· 📊 Scoring multidimensional → cada vuelo se puntúa en precio, duración, calidad, CO₂, flexibilidad y horario según tu perfil de viajero. No hay un ranking único: hay el ranking que tiene sentido para ti.\n· 🗣️ Búsqueda en lenguaje natural → escribe lo que quieres, el sistema interpreta la intención, resuelve destinos y pregunta cuando le falta información\n· 🗺️ Recomendador de destinos → si no sabes adónde ir, un grafo de 5.720 ciudades con 29 atributos sugiere destinos según tus intereses, presupuesto y duración de vuelo tolerable\n\n## Stack técnico\n\n· 17 microservicios FastAPI en pipeline: cada oferta pasa por scoring, insight detection y predicción antes de mostrarse\n· LLM local (Ollama llama3.2:3b) para búsqueda conversacional y recomendación por texto libre\n· Grafo Neo4j actualizado en tiempo real con valoraciones post-viaje de usuarios\n· Arquitectura medallion sobre PostgreSQL: cada búsqueda enriquece el dataset que reentrena el modelo\n\n## Filosofía\n\nLA IA y el Big Data no para automatizar la decisión — para dársela al usuario con mucho más contexto del que tendría solo.",
+        "tags": ["FastAPI", "LightGBM", "Ollama", "Neo4j", "PostgreSQL", "React", "MapLibre", "Docker", "Nginx"],
+        "url": "https://vibe-flying.com/",
+        "github": "https://github.com/21alexrodri",
+        "certificate": "/img/cr_sa_palomera.pdf"
+      },
+      {
+        "id": "leaving-afterparty",
+        "name": "Leaving the Afterparty",
+        "icon": "🚪",
+        "description": "Te despiertas en un lugar desconocido. Tienes la cabeza pesada, no recuerdas cómo llegaste y solo sabes una cosa: tienes que volver a casa.\n\nUn juego sencillo y divertido hecho con el objetivo de descubrir cómo se programa un videojuego desde cero.\n\n## Stack técnico\n\n· Desarrollado con Unity y C#",
+        "tags": ["Unity", "C#", ".NET", "SQL", "Tiled", "Game Design", "Narrative"],
+        "url": "https://leavingtheafterparty.vercel.app/",
+        "github": "https://github.com/21alexrodri"
+      },
+      {
+        "id": "3d-print-archive",
+        "name": "3D Print Archive",
+        "icon": "🖨️",
+        "description": "Sistema de gestión de archivos para impresión 3D desarrollado por encargo de Mercantec (Dinamarca). La empresa necesitaba una solución privada para centralizar, organizar y recuperar de forma cómoda todos sus ficheros de impresión 3D — sin depender de plataformas externas.\n\n## ¿Qué hace?\n\n· 📁 Gestión centralizada de archivos de impresión 3D\n· 🔍 Sistema de búsqueda y recuperación rápida de modelos\n· 🔒 Plataforma privada, sin dependencia de servicios de terceros\n· 🖥️ Visualización 3D de modelos directamente en el navegador\n\n## Stack técnico\n\n· Frontend con Vite + React\n· Visualización 3D con Three.js\n\n## Contexto\n\nProyecto encargado directamente por Mercantec durante mi etapa como Technical Project Lead en Dinamarca.",
+        "tags": ["React", "Three.js", "Vite", "File Management"],
+        "url": "https://3dprintarchive.socdata.dk/home",
+        "github": null,
+        "certificate": "/img/cr_mercantec.pdf"
+      }
+    ]
+  }
+}

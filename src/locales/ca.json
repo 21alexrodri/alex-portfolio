@@ -1,0 +1,174 @@
+{
+  "ui": {
+    "books": {
+      "header": "Biblioteca Personal",
+      "tabEducation": "Formació",
+      "tabExperience": "Experiència",
+      "hint": "Fes clic en un llibre per obrir-lo",
+      "back": "← Tornar a la prestatgeria",
+      "certBtn": "↓ Descarregar certificat",
+      "labelEducation": "Formació",
+      "labelExperience": "Experiència"
+    },
+    "monitor": {
+      "hint": "Fes clic en una app per obrir-la",
+      "browser": {
+        "freeNote": "botiga fictícia · sense pagament real · només per diversió",
+        "placeholder": "El teu nom",
+        "noPayment": "Sense cost — només deixa el teu nom 🌸",
+        "buyBtn": "Comprar →",
+        "cancelBtn": "Cancel·lar",
+        "buying": "Comprant…"
+      },
+      "code": {
+        "explorer": "EXPLORADOR",
+        "empty": "Selecciona un projecte"
+      },
+      "about": {
+        "role": "Especialista en IA i Big Data · Barcelona",
+        "aboutTitle": "Sobre mi",
+        "aboutText": "Em dic Àlex Rodríguez Benítez i sóc especialista en Intel·ligència Artificial i Big Data apassionat pels reptes de programació. Sóc una persona ambiciosa, inconformista i creativa: no em conformo amb el bàsic, sempre busco la manera de fer-ho millor.\n\nTinc formació especialitzada en IA i Big Data (600 hores) i Desenvolupament d'Aplicacions Web, la qual cosa em dona una base sòlida tant en algorismes d'IA com en desenvolupament full-stack.\n\nTreballo principalment amb Python i les seves biblioteques principals per a Machine Learning, Deep Learning, NLP i processament d'imatges. Domino algorismes de classificació, regressió, clustering i xarxes neuronals.\n\nM'encanta aprendre noves tecnologies, treballar en projectes desafiadors d'IA i aportar solucions creatives. Sempre amb l'objectiu de mantenir la màxima qualitat optimitzant costos.\n\nGaudeixo de la interacció i reunions amb clients, així com del treball en equip i la comunicació amb diferents perfils. M'apassiona entendre les necessitats del client i traduir-les en solucions tècniques efectives.\n\nBusco oportunitats com a Desenvolupador d'IA / AI Engineer on pugui aportar els meus coneixements en Machine Learning, Deep Learning i processament de dades massives, combinant habilitats tècniques amb bona comunicació.",
+        "skillsTitle": "Tecnologies",
+        "contactTitle": "Contacte",
+        "location": "Barcelona, Catalunya"
+      }
+    },
+    "vase": {
+      "title": "Bloom Garden",
+      "countZero": "Encara sense flors",
+      "count": "{{count}} flor comprada",
+      "count_other": "{{count}} flors comprades",
+      "loading": "Carregant…",
+      "error": "No s'han pogut carregar les flors. L'API està activa?",
+      "emptyTitle": "Ningú ha comprat una flor encara.",
+      "emptySub": "Sigues el primer — obre l'ordinador i visita Bloom.",
+      "by": "de",
+      "justNow": "ara mateix",
+      "mAgo": "fa {{n}}m",
+      "hAgo": "fa {{n}}h",
+      "dAgo": "fa {{n}}d"
+    },
+    "errors": {
+      "nameMin": "Mínim 2 caràcters.",
+      "nameChars": "Només lletres, espais, guions i apòstrofs.",
+      "nameServer": "Alguna cosa ha fallat. Torna-ho a intentar.",
+      "nameNetwork": "No s'ha pogut connectar al servidor."
+    },
+    "sceneHint": "toca els objectes per explorar"
+  },
+  "data": {
+    "flowers": [
+      { "id": 1, "name": "Rosa Alpina",  "emoji": "🌹", "price": 12, "desc": "Bellesa clàssica, tallada a mà." },
+      { "id": 2, "name": "Iris Blau",    "emoji": "🪻", "price": 9,  "desc": "Elegant i escàs. Estoc limitat." },
+      { "id": 3, "name": "Girasol",      "emoji": "🌻", "price": 7,  "desc": "Irradio calor i energia." },
+      { "id": 4, "name": "Lliri Blanc",  "emoji": "🌷", "price": 18, "desc": "Misteriós i delicat." }
+    ],
+    "education": [
+      {
+        "spine": "Grau Informàtica",
+        "period": "2026–avui",
+        "title": "Grau en Enginyeria Informàtica",
+        "institution": "UOC · Universitat Oberta de Catalunya",
+        "description": "Actualment m'estic formant en Enginyeria Informàtica amb el Grau de la UOC en format en línia, cosa que em permet avançar al meu ritme mentre em concentro en la meva feina i en el meu desenvolupament professional. El meu objectiu és continuar creixent en el sector tecnològic, combinant formació sòlida amb experiència pràctica.",
+        "tags": ["Algorismes", "Sistemes", "Enginyeria del Programari"],
+        "certificate": null
+      },
+      {
+        "spine": "IA & Big Data",
+        "period": "2025–2026",
+        "title": "Especialització — IA i Big Data",
+        "institution": "Institut Sa Palomera · Blanes",
+        "description": "El Curs d'Especialització en Intel·ligència Artificial i Big Data forma per programar i aplicar sistemes intel·ligents que optimitzen la gestió de la informació i l'explotació de dades massives, garantint seguretat, accessibilitat, usabilitat, qualitat i compliment de principis ètics i legals.\n\nMòduls: Models d'IA, Machine Learning, Programació d'IA, Sistemes de Big Data i Big Data aplicat. Treballes principalment amb Python i eines com NumPy, Pandas, scikit-learn, TensorFlow, Keras, NLTK i BeautifulSoup. Aprens algorismes de classificació, regressió, clustering, xarxes neuronals i tècniques com boosting (XGBoost, LightGBM, etc.).\n\nTambé treballes amb Docker, Hadoop, Spark i plataformes al núvol com AWS i Azure per gestionar i emmagatzemar grans volums de dades, processar dades massives, visualitzar dades i configurar quadres de comandament. Apliques IA en negocis per millorar productivitat, automatitzar processos i gestionar la transformació digital.\n\nEl meu rendiment acadèmic i el projecte final que vaig desenvolupar m'han valgut una carta de recomanació del centre, disponible a continuació.",
+        "tags": ["Python", "TensorFlow", "scikit-learn", "Docker", "Spark", "AWS", "Azure", "Big Data", "ML"],
+        "certificate": "/img/cr_sa_palomera.pdf"
+      },
+      {
+        "spine": "CFGS DAW",
+        "period": "2021–2023",
+        "title": "CFGS — Desenvolupament d'Aplicacions Web",
+        "institution": "Institut Thos i Codina · Mataró",
+        "description": "Formació especialitzada en desenvolupament web full-stack, cobrint tant el frontend com el backend. He adquirit competències en programació web, bases de dades, serveis web, desplegament d'aplicacions i seguretat en entorns web.",
+        "tags": ["HTML", "CSS", "JavaScript", "PHP", "SQL", "Web Security"],
+        "certificate": null
+      }
+    ],
+    "experience": [
+      {
+        "spine": "Dev. Lead",
+        "period": "Des 2024–avui",
+        "title": "Software Development Lead",
+        "institution": "Tellmebye",
+        "description": "Lideratge del desenvolupament de programari a Tellmebye. Responsable de la direcció tècnica, definició d'arquitectura, revisió de codi i coordinació entre equips.\n\nTellmebye és una empresa espanyola pionera en innovació per al sector funerari, amb més de 6 anys transformant digitalment el sector. El seu producte principal és un programari de gestió funerària amb eCommerce integrat, pàgina d'obituaris i difusió digital de serveis. També ofereixen el Mur del Record (Memorial Wall), una plataforma en línia on les persones poden crear un mur virtual per honorar la memòria d'un ésser estimat, publicar fotografies, anècdotes i brindar un homenatge digital amb condolences.\n\nL'empresa té seu a Mataró (Barcelona) i s'ha internacionalitzat a Llatinoamèrica, especialment a Mèxic.\n\nDurant el meu període a Tellmebye, vaig ser part essencial en la creació de:\n\n· Sistemes d'automatització de funcions internes\n· Adaptació i integració amb sistemes externs\n· Modernització visual i de programari de tota la plataforma\n· Implementació d'Intel·ligència Artificial aplicada al sector funerari:\n    ↳ Restauració i recolorització d'imatges antigues\n    ↳ Millora de qualitat d'imatges amb IA\n\nSempre prioritzant solucions econòmiques sense sacrificar qualitat, avaluant totes les opcions possibles per optimitzar costos.\n\nDurant aquesta etapa, Tellmebye ha aconseguit veure el seu major creixement de clients per any des de la seva fundació.\n\nLa meva trajectòria i aportacions a Tellmebye m'han valgut una carta de recomanació per part de l'empresa, disponible a continuació.",
+        "tags": ["JavaScript", "PHP", "Git", "HTML", "CSS", "SQL", "AI Integration"],
+        "certificate": "/img/cr_tellmebye.pdf"
+      },
+      {
+        "spine": "Project Lead",
+        "period": "Oct 2024–Des 2024",
+        "title": "Technical Project Lead",
+        "institution": "Mercantec · Dinamarca",
+        "description": "Durant 2 mesos em vaig desplaçar a Dinamarca per liderar el desenvolupament del projecte 3D Print Archive a Mercantec, una institució educativa danesa.\n\nEl meu rol va ser orquestrar el projecte des del punt de vista tècnic i de gestió: vaig coordinar l'equip, vaig prendre decisions sobre arquitectura i priorització, i vaig mantenir reunions amb el client cada 2 setmanes en anglès per presentar l'avanç, resoldre dubtes i ajustar l'abast segons les necessitats reals.\n\nEl meu rendiment al capdavant d'aquest projecte m'ha valgut una carta de recomanació de Mercantec, disponible a continuació.",
+        "tags": ["Lideratge", "Arquitectura", "Agile", "Git"],
+        "certificate": "/img/cr_mercantec.pdf"
+      },
+      {
+        "spine": "Dev. Software",
+        "period": "Jun 2024–Oct 2024",
+        "title": "Desenvolupador de Programari",
+        "institution": "Tellmebye",
+        "description": "Desenvolupament de programari a temps complet a Tellmebye. Implementació de noves funcionalitats, resolució d'errors i millora del rendiment i qualitat del codi.\n\nTellmebye és una empresa espanyola pionera en innovació per al sector funerari, amb més de 6 anys transformant digitalment el sector. El seu producte principal és un programari de gestió funerària amb eCommerce integrat, pàgina d'obituaris i difusió digital de serveis. També ofereixen el Mur del Record (Memorial Wall), una plataforma en línia on les persones poden crear un mur virtual per honorar la memòria d'un ésser estimat, publicar fotografies, anècdotes i brindar un homenatge digital amb condolences.\n\nL'empresa té seu a Mataró (Barcelona) i s'ha internacionalitzat a Llatinoamèrica, especialment a Mèxic.\n\nDesprés de consolidar-me com a desenvolupador després de les pràctiques, vaig participar activament en el cicle complet de desenvolupament de noves funcionalitats, des del disseny tècnic fins al desplegament. Vaig contribuir a la integració amb serveis i APIs externes, i vaig col·laborar en la millora contínua de la qualitat del codi i l'experiència d'usuari de la plataforma.\n\nLa meva trajectòria i aportacions a Tellmebye m'han valgut una carta de recomanació per part de l'empresa, disponible a continuació.",
+        "tags": ["JavaScript", "PHP", "Git", "HTML", "CSS", "SQL"],
+        "certificate": "/img/cr_tellmebye.pdf"
+      },
+      {
+        "spine": "Pràctiques",
+        "period": "Des 2023–Jun 2024",
+        "title": "Pràctiques — Desenvolupador de Programari",
+        "institution": "Tellmebye",
+        "description": "Pràctiques d'empresa centrades en el desenvolupament de funcionalitats del producte principal. Col·laboració amb l'equip d'enginyeria en sprints àgils, contribuint tant en frontend com en backend.\n\nTellmebye és una empresa espanyola pionera en innovació per al sector funerari, amb més de 6 anys transformant digitalment el sector. El seu producte principal és un programari de gestió funerària amb eCommerce integrat, pàgina d'obituaris i difusió digital de serveis. També ofereixen el Mur del Record (Memorial Wall), una plataforma en línia on les persones poden crear un mur virtual per honorar la memòria d'un ésser estimat, publicar fotografies, anècdotes i brindar un homenatge digital amb condolences.\n\nL'empresa té seu a Mataró (Barcelona) i s'ha internacionalitzat a Llatinoamèrica, especialment a Mèxic.\n\nDurant la meva estada de pràctiques, vaig implementar millores visuals i de rendiment a tot el programari, incloent:\n\n· Visualització optimitzada de murs de difunts en sales \"Memorial Wall Premium\"\n· Nova funcionalitat de descàrrega d'imatges personalitzades per a marcs digitals\n\nVaig contribuir a millorar l'experiència d'usuari i el rendiment general de la plataforma.\n\nLa meva trajectòria i aportacions a Tellmebye m'han valgut una carta de recomanació per part de l'empresa, disponible a continuació.",
+        "tags": ["JavaScript", "PHP", "Git", "HTML", "CSS", "SQL"],
+        "certificate": "/img/cr_tellmebye.pdf"
+      }
+    ],
+    "projects": [
+      {
+        "id": "portfolio-3d",
+        "name": "Portfolio 3D",
+        "icon": "🌐",
+        "description": "En lloc d'un portfolio tradicional, aquest és una habitació 3D completament interactiva que pots explorar des del navegador — sense descàrregues, sense plugins.\n\n## Què amaga cada objecte?\n\n· 📚 Estanteria → biblioteca animada de formació i experiència laboral\n· 💻 Ordinador → OS simulat amb botiga de flors, explorador de projectes i about me\n· 🌸 Gerro → feed en temps real de flors deixades per visitants de tot el món\n\n## Stack tècnic\n\n· Modelat a Blender, renderitzat amb Three.js + React Three Fiber\n· Animacions de vol de càmera amb timelines de GSAP\n· UI en React amb sistema i18n propi (CA / ES / EN)\n· Backend Node.js + Express · SQLite · rate limiting · filtre de contingut\n\n## Filosofia\n\nEl portfolio en si mateix és el projecte — no només un aparador, sinó una declaració d'intencions.",
+        "tags": ["React", "Three.js", "Blender", "GSAP", "R3F"],
+        "url": null,
+        "github": "https://github.com/21alexrodri"
+      },
+      {
+        "id": "vibe-flying",
+        "name": "Vibe Flying",
+        "icon": "✈️",
+        "description": "Quan cerques un vol, no saps si el preu que veus és barat, car o normal. Vibe Flying resol això: cada oferta arriba amb un preu predit per ML, una puntuació de qualitat en 6 dimensions i detecció automàtica de chollos estadístics — perquè puguis decidir amb criteri, no amb intuïció.\n\n## Què fa per l'usuari?\n\n· 💸 Predictor de preu → un model LightGBM entrenat sobre milers de vols reals estima el preu just de cada oferta. Si el preu real és molt per sota, ho saps. Si t'estan cobrant de més, també.\n· 📊 Scoring multidimensional → cada vol es puntua en preu, duració, qualitat, CO₂, flexibilitat i horari segons el teu perfil de viatger. No hi ha un rànquing únic: hi ha el rànquing que té sentit per a tu.\n· 🗣️ Cerca en llenguatge natural → escriu el que vols, el sistema interpreta la intenció, resol destinacions i pregunta quan li manca informació\n· 🗺️ Recomanador de destinacions → si no saps on anar, un graf de 5.720 ciutats amb 29 atributs suggereix destinacions segons els teus interessos, pressupost i duració de vol tolerable\n\n## Stack tècnic\n\n· 17 microserveis FastAPI en pipeline: cada oferta passa per scoring, insight detection i predicció abans de mostrar-se\n· LLM local (Ollama llama3.2:3b) per a cerca conversacional i recomanació per text lliure\n· Graf Neo4j actualitzat en temps real amb valoracions post-viatge d'usuaris\n· Arquitectura medallion sobre PostgreSQL: cada cerca enriqueix el dataset que reentrena el model\n\n## Filosofia\n\nLA IA i el Big Data no per automatitzar la decisió — sinó per donar-la a l'usuari amb molt més context del que tindria sol.",
+        "tags": ["FastAPI", "LightGBM", "Ollama", "Neo4j", "PostgreSQL", "React", "MapLibre", "Docker", "Nginx"],
+        "url": "https://vibe-flying.com/",
+        "github": "https://github.com/21alexrodri",
+        "certificate": "/img/cr_sa_palomera.pdf"
+      },
+      {
+        "id": "leaving-afterparty",
+        "name": "Leaving the Afterparty",
+        "icon": "🚪",
+        "description": "Et despertes en un lloc desconegut. Tens el cap pesat, no recordes com hi vas arribar i només saps una cosa: has de tornar a casa.\n\nUn joc senzill i divertit fet amb l'objectiu de descobrir com es programa un videojoc des de zero.\n\n## Stack tècnic\n\n· Desenvolupat amb Unity i C#",
+        "tags": ["Unity", "C#", ".NET", "SQL", "Tiled", "Game Design", "Narrative"],
+        "url": "https://leavingtheafterparty.vercel.app/",
+        "github": "https://github.com/21alexrodri"
+      },
+      {
+        "id": "3d-print-archive",
+        "name": "3D Print Archive",
+        "icon": "🖨️",
+        "description": "Sistema de gestió d'arxius per a impressió 3D desenvolupat per encàrrec de Mercantec (Dinamarca). L'empresa necessitava una solució privada per centralitzar, organitzar i recuperar de forma còmoda tots els seus fitxers d'impressió 3D — sense dependre de plataformes externes.\n\n## Què fa?\n\n· 📁 Gestió centralitzada d'arxius d'impressió 3D\n· 🔍 Sistema de cerca i recuperació ràpida de models\n· 🔒 Plataforma privada, sense dependència de serveis de tercers\n· 🖥️ Visualització 3D de models directament al navegador\n\n## Stack tècnic\n\n· Frontend amb Vite + React\n· Visualització 3D amb Three.js\n\n## Context\n\nProjecte encarregat directament per Mercantec durant la meva etapa com a Technical Project Lead a Dinamarca.",
+        "tags": ["React", "Three.js", "Vite", "File Management"],
+        "url": "https://3dprintarchive.socdata.dk/home",
+        "github": null,
+        "certificate": "/img/cr_mercantec.pdf"
+      }
+    ]
+  }
+}

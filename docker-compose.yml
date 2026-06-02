@@ -1,0 +1,38 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 3001
+      DB_PATH: /data/flowers.db
+    volumes:
+      - db_data:/data
+    networks:
+      - internal
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    restart: unless-stopped
+    environment:
+      - VIRTUAL_HOST=alex-rodriguez-benitez-portfolio.vibe-flying.com
+      - LETSENCRYPT_HOST=alex-rodriguez-benitez-portfolio.vibe-flying.com
+      - VIRTUAL_PORT=80
+    depends_on:
+      - backend
+    networks:
+      - proxy-network
+      - internal
+
+volumes:
+  db_data:
+
+networks:
+  proxy-network:
+    external: true
+  internal:
+    driver: bridge

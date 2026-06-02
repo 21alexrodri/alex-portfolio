@@ -1,0 +1,174 @@
+{
+  "ui": {
+    "books": {
+      "header": "Personal Library",
+      "tabEducation": "Education",
+      "tabExperience": "Experience",
+      "hint": "Click a book to open it",
+      "back": "← Back to shelf",
+      "certBtn": "↓ Download certificate",
+      "labelEducation": "Education",
+      "labelExperience": "Experience"
+    },
+    "monitor": {
+      "hint": "Click an app to open",
+      "browser": {
+        "freeNote": "fictional shop · no real payment · just for fun",
+        "placeholder": "Your name",
+        "noPayment": "No payment involved — just leave your name 🌸",
+        "buyBtn": "Buy now →",
+        "cancelBtn": "Cancel",
+        "buying": "Buying…"
+      },
+      "code": {
+        "explorer": "EXPLORER",
+        "empty": "Select a project"
+      },
+      "about": {
+        "role": "AI & Big Data Specialist · Barcelona",
+        "aboutTitle": "About",
+        "aboutText": "My name is Àlex Rodríguez Benítez and I am an AI and Big Data specialist passionate about programming challenges. I am an ambitious, non-conformist and creative person — I never settle for the basics, I always look for a way to do it better.\n\nI have specialised training in AI and Big Data (600 hours) and Web Application Development, giving me a solid foundation in both AI algorithms and full-stack development.\n\nI primarily work with Python and its main libraries for Machine Learning, Deep Learning, NLP and image processing. I am proficient in classification, regression, clustering and neural network algorithms.\n\nI love learning new technologies, working on challenging AI projects and contributing creative solutions — always aiming for maximum quality while optimising costs.\n\nI enjoy client interactions and meetings, as well as teamwork and communication across different profiles. I am passionate about understanding client needs and translating them into effective technical solutions.\n\nI am looking for opportunities as an AI Developer / AI Engineer where I can apply my knowledge in Machine Learning, Deep Learning and massive data processing, combining technical skills with strong communication.",
+        "skillsTitle": "Skills",
+        "contactTitle": "Contact",
+        "location": "Barcelona, Spain"
+      }
+    },
+    "vase": {
+      "title": "Bloom Garden",
+      "countZero": "No flowers yet",
+      "count": "{{count}} flower bought",
+      "count_other": "{{count}} flowers bought",
+      "loading": "Loading…",
+      "error": "Could not load flowers. Is the API running?",
+      "emptyTitle": "No one has bought a flower yet.",
+      "emptySub": "Be the first — open the computer and visit Bloom!",
+      "by": "by",
+      "justNow": "just now",
+      "mAgo": "{{n}}m ago",
+      "hAgo": "{{n}}h ago",
+      "dAgo": "{{n}}d ago"
+    },
+    "errors": {
+      "nameMin": "At least 2 characters required.",
+      "nameChars": "Letters, spaces, hyphens and apostrophes only.",
+      "nameServer": "Something went wrong. Try again.",
+      "nameNetwork": "Could not connect to server."
+    },
+    "sceneHint": "click objects to explore"
+  },
+  "data": {
+    "flowers": [
+      { "id": 1, "name": "Alpine Rose",  "emoji": "🌹", "price": 12, "desc": "Classic beauty, hand-trimmed." },
+      { "id": 2, "name": "Blue Iris",    "emoji": "🪻", "price": 9,  "desc": "Elegant and rare. Limited stock." },
+      { "id": 3, "name": "Sunbloom",     "emoji": "🌻", "price": 7,  "desc": "Radiates warmth and energy." },
+      { "id": 4, "name": "Ghost Lily",   "emoji": "🌷", "price": 18, "desc": "Mysterious and delicate." }
+    ],
+    "education": [
+      {
+        "spine": "Comp. Eng.",
+        "period": "2026–nowadays",
+        "title": "Computer Engineering Degree",
+        "institution": "UOC · Universitat Oberta de Catalunya",
+        "description": "Currently studying Computer Science Engineering through UOC's online degree programme, which allows me to advance at my own pace while focusing on my work and professional growth. My goal is to keep growing in the tech sector, combining solid academic training with hands-on experience.",
+        "tags": ["Algorithms", "Systems", "Software Engineering"],
+        "certificate": null
+      },
+      {
+        "spine": "AI & Big Data",
+        "period": "2025–2026",
+        "title": "Advanced Specialisation — AI & Big Data",
+        "institution": "Institut Sa Palomera · Blanes",
+        "description": "This post-vocational specialisation trains you to program and apply intelligent systems that optimise information management and massive data exploitation, ensuring security, accessibility, usability, quality and compliance with ethical and legal principles.\n\nModules: AI Models, Machine Learning, AI Programming, Big Data Systems and Applied Big Data. Primarily Python-based, using NumPy, Pandas, scikit-learn, TensorFlow, Keras, NLTK and BeautifulSoup. Covers classification, regression, clustering, neural networks and boosting techniques (XGBoost, LightGBM, etc.).\n\nAlso covers Docker, Hadoop, Spark and cloud platforms (AWS, Azure) for managing large data volumes, processing massive datasets, data visualisation and dashboard configuration. Applied AI in business: productivity improvement, process automation and digital transformation management.\n\nMy academic performance and the final project I developed earned me a letter of recommendation from the institution, available below.",
+        "tags": ["Python", "TensorFlow", "scikit-learn", "Docker", "Spark", "AWS", "Azure", "Big Data", "ML"],
+        "certificate": "/img/cr_sa_palomera.pdf"
+      },
+      {
+        "spine": "Web Dev",
+        "period": "2021–2023",
+        "title": "Higher Technician — Web Application Development",
+        "institution": "Institut Thos i Codina · Mataró",
+        "description": "Specialised training in full-stack web development, covering both frontend and backend. I acquired skills in web programming, databases, web services, application deployment and web security.",
+        "tags": ["HTML", "CSS", "JavaScript", "PHP", "SQL", "Web Security"],
+        "certificate": null
+      }
+    ],
+    "experience": [
+      {
+        "spine": "Dev. Lead",
+        "period": "Dec 2024–nowadays",
+        "title": "Software Development Lead",
+        "institution": "Tellmebye",
+        "description": "Leading software development at Tellmebye. Responsible for technical direction, architecture definition, code reviews and cross-team coordination.\n\nTellmebye is a pioneering Spanish company in innovation for the funeral sector, with over 6 years digitally transforming the industry. Their main product is funeral management software with integrated eCommerce, an obituary page and digital service broadcasting. They also offer the Memorial Wall, an online platform where people can create a virtual wall to honour the memory of a loved one, post photos, anecdotes and offer a digital tribute with condolences.\n\nThe company is headquartered in Mataró (Barcelona) and has expanded internationally to Latin America, especially Mexico.\n\nDuring my time at Tellmebye, I was an essential part of the creation of:\n\n· Internal function automation systems\n· Adaptation and integration with external systems\n· Visual and software modernisation of the entire platform\n· Implementation of Artificial Intelligence applied to the funeral sector:\n    ↳ Restoration and colourisation of old images\n    ↳ AI-powered image quality enhancement\n\nAlways prioritising cost-effective solutions without sacrificing quality, evaluating all possible options to optimise costs.\n\nDuring this period, Tellmebye achieved its highest client growth per year since its founding.\n\nMy contributions and performance at Tellmebye earned me a letter of recommendation from the company, available below.",
+        "tags": ["JavaScript", "PHP", "Git", "HTML", "CSS", "SQL", "AI Integration"],
+        "certificate": "/img/cr_tellmebye.pdf"
+      },
+      {
+        "spine": "Project Lead",
+        "period": "Oct 2024–Dec 2024",
+        "title": "Technical Project Lead",
+        "institution": "Mercantec · Denmark",
+        "description": "For 2 months I relocated to Denmark to lead the development of the 3D Print Archive project at Mercantec, a Danish educational institution.\n\nMy role was to orchestrate the project from both a technical and management perspective: I coordinated the team, made decisions on architecture and prioritisation, and held biweekly meetings with the client in English to present progress, address questions and adjust scope based on real needs.\n\nMy performance leading this project earned me a letter of recommendation from Mercantec, available below.",
+        "tags": ["Leadership", "Architecture", "Agile", "Git"],
+        "certificate": "/img/cr_mercantec.pdf"
+      },
+      {
+        "spine": "Software Dev",
+        "period": "Jun 2024–Oct 2024",
+        "title": "Software Developer",
+        "institution": "Tellmebye",
+        "description": "Full-time software development at Tellmebye. Implemented new features, resolved bugs and improved overall product performance and code quality.\n\nTellmebye is a pioneering Spanish company in innovation for the funeral sector, with over 6 years digitally transforming the industry. Their main product is funeral management software with integrated eCommerce, an obituary page and digital service broadcasting. They also offer the Memorial Wall, an online platform where people can create a virtual wall to honour the memory of a loved one, post photos, anecdotes and offer a digital tribute with condolences.\n\nThe company is headquartered in Mataró (Barcelona) and has expanded internationally to Latin America, especially Mexico.\n\nAfter consolidating as a developer following my internship, I actively participated in the full development cycle of new features, from technical design through to deployment. I contributed to integrations with external services and APIs, and collaborated on the continuous improvement of code quality and the platform's user experience.\n\nMy contributions and performance at Tellmebye earned me a letter of recommendation from the company, available below.",
+        "tags": ["JavaScript", "PHP", "Git", "HTML", "CSS", "SQL"],
+        "certificate": "/img/cr_tellmebye.pdf"
+      },
+      {
+        "spine": "Internship",
+        "period": "Dec 2023–Jun 2024",
+        "title": "Internship — Software Developer",
+        "institution": "Tellmebye",
+        "description": "Company internship focused on feature development on the core product. Collaborated with the engineering team in agile sprints, contributing to both frontend and backend tasks.\n\nTellmebye is a pioneering Spanish company in innovation for the funeral sector, with over 6 years digitally transforming the industry. Their main product is funeral management software with integrated eCommerce, an obituary page and digital service broadcasting. They also offer the Memorial Wall, an online platform where people can create a virtual wall to honour the memory of a loved one, post photos, anecdotes and offer a digital tribute with condolences.\n\nThe company is headquartered in Mataró (Barcelona) and has expanded internationally to Latin America, especially Mexico.\n\nDuring my internship, I implemented visual and performance improvements across the entire software, including:\n\n· Optimised display of memorial walls in \"Memorial Wall Premium\" rooms\n· New personalised image download functionality for digital frames\n\nI contributed to improving the user experience and the overall performance of the platform.\n\nMy contributions and performance at Tellmebye earned me a letter of recommendation from the company, available below.",
+        "tags": ["JavaScript", "PHP", "Git", "HTML", "CSS", "SQL"],
+        "certificate": "/img/cr_tellmebye.pdf"
+      }
+    ],
+    "projects": [
+      {
+        "id": "portfolio-3d",
+        "name": "Portfolio 3D",
+        "icon": "🌐",
+        "description": "Instead of a traditional portfolio, this is a fully interactive 3D room you can explore directly in the browser — no downloads, no plugins.\n\n## What hides inside each object?\n\n· 📚 Bookshelf → animated library of education and work experience\n· 💻 Computer → simulated OS with a flower shop, projects explorer and about me\n· 🌸 Vase → live feed of flowers left by visitors from all over the world\n\n## Tech stack\n\n· Modelled in Blender, rendered with Three.js + React Three Fiber\n· Camera fly-to animations powered by GSAP timelines\n· React UI with a custom i18n system (EN / ES / CA)\n· Node.js + Express backend · SQLite · rate limiting · profanity filter\n\n## Philosophy\n\nThe portfolio itself is the project — not just a showcase, but a statement.",
+        "tags": ["React", "Three.js", "Blender", "GSAP", "R3F"],
+        "url": null,
+        "github": "https://github.com/21alexrodri"
+      },
+      {
+        "id": "vibe-flying",
+        "name": "Vibe Flying",
+        "icon": "✈️",
+        "description": "When you search for a flight, you don't know if the price you see is cheap, expensive or normal. Vibe Flying solves that: every offer comes with an ML-predicted price, a quality score across 6 dimensions and automatic statistical deal detection — so you can decide with criteria, not instinct.\n\n## What does it do for the user?\n\n· 💸 Price Predictor → a LightGBM model trained on thousands of real flights estimates the fair price for each offer. If the real price is well below that, you'll know. If you're being overcharged, you'll know that too.\n· 📊 Multidimensional scoring → each flight is scored on price, duration, quality, CO₂, flexibility and schedule according to your traveller profile. There's no single ranking: there's the ranking that makes sense for you.\n· 🗣️ Natural language search → write what you want, the system interprets the intent, resolves destinations and asks when it needs more information\n· 🗺️ Destination recommender → if you don't know where to go, a graph of 5,720 cities with 29 attributes suggests destinations based on your interests, budget and tolerable flight duration\n\n## Tech stack\n\n· 17 FastAPI microservices in pipeline: each offer goes through scoring, insight detection and prediction before being shown\n· Local LLM (Ollama llama3.2:3b) for conversational search and free-text recommendation\n· Neo4j graph updated in real time with post-trip user ratings\n· Medallion architecture on PostgreSQL: each search enriches the dataset that retrains the model\n\n## Philosophy\n\nAI and Big Data not to automate the decision — but to give it to the user with far more context than they'd have alone.",
+        "tags": ["FastAPI", "LightGBM", "Ollama", "Neo4j", "PostgreSQL", "React", "MapLibre", "Docker", "Nginx"],
+        "url": "https://vibe-flying.com/",
+        "github": "https://github.com/21alexrodri",
+        "certificate": "/img/cr_sa_palomera.pdf"
+      },
+      {
+        "id": "leaving-afterparty",
+        "name": "Leaving the Afterparty",
+        "icon": "🚪",
+        "description": "You wake up somewhere unfamiliar. Your head is heavy, you don't remember how you got there and you only know one thing: you need to get home.\n\nA simple and fun game made with the goal of discovering how to program a video game from scratch.\n\n## Tech stack\n\n· Built with Unity and C#",
+        "tags": ["Unity", "C#", ".NET", "SQL", "Tiled", "Game Design", "Narrative"],
+        "url": "https://leavingtheafterparty.vercel.app/",
+        "github": "https://github.com/21alexrodri"
+      },
+      {
+        "id": "3d-print-archive",
+        "name": "3D Print Archive",
+        "icon": "🖨️",
+        "description": "3D file management system developed on commission for Mercantec (Denmark). The company needed a private solution to centralise, organise and conveniently retrieve all their 3D print files — without relying on external platforms.\n\n## What does it do?\n\n· 📁 Centralised management of 3D print files\n· 🔍 Search and fast model retrieval system\n· 🔒 Private platform, no dependency on third-party services\n· 🖥️ In-browser 3D model visualisation\n\n## Tech stack\n\n· Frontend with Vite + React\n· 3D visualisation with Three.js\n\n## Context\n\nProject commissioned directly by Mercantec during my time as Technical Project Lead in Denmark.",
+        "tags": ["React", "Three.js", "Vite", "File Management"],
+        "url": "https://3dprintarchive.socdata.dk/home",
+        "github": null,
+        "certificate": "/img/cr_mercantec.pdf"
+      }
+    ]
+  }
+}
