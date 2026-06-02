@@ -251,7 +251,19 @@ function AboutApp() {
     <div className="mp-pdf">
       <div className="mp-pdf-topbar">
         <span>📄 About_Me.pdf</span>
-        <span>1 / 1</span>
+        <a
+          href="/img/rodriguez_benitez_alex_cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+          className="mp-pdf-download-btn"
+          aria-label="Download CV"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="13" height="13">
+            <path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 21h14"/>
+          </svg>
+          {t('ui.monitor.about.downloadCV')}
+        </a>
       </div>
       <div className="mp-pdf-bg">
         <div className="mp-pdf-paper">
@@ -282,6 +294,18 @@ function AboutApp() {
             <p>🐙 <a href="https://github.com/21alexrodri" target="_blank" rel="noopener noreferrer" className="mp-cv-link">github.com/21alexrodri</a></p>
             <p>📍 {t('ui.monitor.about.location')}</p>
           </div>
+          <a
+            href="/img/rodriguez_benitez_alex_cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="mp-cv-download-cta"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+              <path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 21h14"/>
+            </svg>
+            {t('ui.monitor.about.downloadCV')}
+          </a>
         </div>
       </div>
     </div>

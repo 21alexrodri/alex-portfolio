@@ -26,6 +26,7 @@
       },
       "about": {
         "role": "Especialista en IA i Big Data · Barcelona",
+        "downloadCV": "Descarregar CV",
         "aboutTitle": "Sobre mi",
         "aboutText": "Em dic Àlex Rodríguez Benítez i sóc especialista en Intel·ligència Artificial i Big Data apassionat pels reptes de programació. Sóc una persona ambiciosa, inconformista i creativa: no em conformo amb el bàsic, sempre busco la manera de fer-ho millor.\n\nTinc formació especialitzada en IA i Big Data (600 hores) i Desenvolupament d'Aplicacions Web, la qual cosa em dona una base sòlida tant en algorismes d'IA com en desenvolupament full-stack.\n\nTreballo principalment amb Python i les seves biblioteques principals per a Machine Learning, Deep Learning, NLP i processament d'imatges. Domino algorismes de classificació, regressió, clustering i xarxes neuronals.\n\nM'encanta aprendre noves tecnologies, treballar en projectes desafiadors d'IA i aportar solucions creatives. Sempre amb l'objectiu de mantenir la màxima qualitat optimitzant costos.\n\nGaudeixo de la interacció i reunions amb clients, així com del treball en equip i la comunicació amb diferents perfils. M'apassiona entendre les necessitats del client i traduir-les en solucions tècniques efectives.\n\nBusco oportunitats com a Desenvolupador d'IA / AI Engineer on pugui aportar els meus coneixements en Machine Learning, Deep Learning i processament de dades massives, combinant habilitats tècniques amb bona comunicació.",
         "skillsTitle": "Tecnologies",

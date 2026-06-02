@@ -128,6 +128,7 @@ function App() {
             <path d="M12 3v13M7 11l5 5 5-5"/>
             <path d="M5 21h14"/>
           </svg>
+          <span className="cv-label">CV</span>
         </a>
       </footer>
       <CustomCursor />

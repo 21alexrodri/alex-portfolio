@@ -166,6 +166,7 @@ html, body, #root {
 
 /* ── CV download button ───────────────────────────────── */
 .cv-download-link {
+  gap: 5px;
   color: rgba(180, 220, 255, 0.6);
   animation: cvGlow 2.4s ease-in-out infinite;
 }
@@ -174,6 +175,14 @@ html, body, #root {
   color: rgba(180, 220, 255, 1);
   animation: none;
   filter: drop-shadow(0 0 8px rgba(140, 200, 255, 0.9));
+}
+
+.cv-label {
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1;
 }
 
 @keyframes cvGlow {
@@ -191,5 +200,8 @@ html, body, #root {
   .cv-download-link svg {
     width: 15px;
     height: 15px;
+  }
+  .cv-label {
+    font-size: 9px;
   }
 }

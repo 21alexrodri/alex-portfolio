@@ -822,7 +822,7 @@
 }
 
 .mp-pdf-topbar {
-  height: 34px;
+  height: 38px;
   background: #3c3830;
   display: flex;
   align-items: center;
@@ -831,6 +831,51 @@
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
   flex-shrink: 0;
+  gap: 10px;
+}
+
+.mp-pdf-download-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mp-pdf-download-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.mp-cv-download-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: #2d6a4f;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: background 0.15s, transform 0.15s;
+  width: 100%;
+  box-sizing: border-box;
+}
+.mp-cv-download-cta:hover {
+  background: #245a40;
+  transform: translateY(-1px);
 }
 
 .mp-pdf-bg {
@@ -936,12 +981,19 @@
 .mp-cv-link:hover { text-decoration: underline; }
 
 /* ── Responsive — teléfonos ──────────────────────────── */
-@media (max-width: 540px) {
+@media (max-width: 600px) {
 
-  /* Monitor más alto en móvil para contenido apilado */
+  /* Overlay ocupa todo sin dejar huecos alrededor */
+  .mp-overlay {
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 0;
+  }
+
+  /* Monitor llena toda la pantalla sin espacio alrededor */
   .mp-monitor {
-    width: 100vw;
-    height: 92vh;
+    width: 100%;
+    height: 100%;
     border-radius: 0;
     box-shadow: none;
   }
@@ -988,9 +1040,16 @@
 
   /* PDF / About — menos padding en el papel */
   .mp-pdf-paper {
-    padding: 22px 18px 28px;
+    padding: 20px 16px 24px;
   }
   .mp-cv-title h1 {
     font-size: 17px;
+  }
+  .mp-cv-avatar {
+    width: 46px;
+    height: 46px;
+  }
+  .mp-pdf-download-btn span {
+    display: none;
   }
 }
