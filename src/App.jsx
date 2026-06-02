@@ -116,6 +116,19 @@ function App() {
         <a href="mailto:21alexrodri@gmail.com" className="site-footer-link" aria-label="Email">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M3 8l7.89 5.26a2 2 0 0 0 2.22 0L21 8M5 19h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2z"/></svg>
         </a>
+        <a
+          href="/img/rodriguez_benitez_alex_cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+          className="site-footer-link cv-download-link"
+          aria-label="Download CV"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M12 3v13M7 11l5 5 5-5"/>
+            <path d="M5 21h14"/>
+          </svg>
+        </a>
       </footer>
       <CustomCursor />
       <LanguageSwitcher />
