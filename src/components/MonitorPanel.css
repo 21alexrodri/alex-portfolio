@@ -983,19 +983,11 @@
 /* ── Responsive — teléfonos ──────────────────────────── */
 @media (max-width: 600px) {
 
-  /* Overlay ocupa todo sin dejar huecos alrededor */
-  .mp-overlay {
-    align-items: stretch;
-    justify-content: stretch;
-    padding: 0;
-  }
-
-  /* Monitor llena toda la pantalla sin espacio alrededor */
+  /* Monitor más compacto — centrado como los demás paneles */
   .mp-monitor {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    box-shadow: none;
+    width: 93vw;
+    height: min(500px, 72vh);
+    border-radius: 12px;
   }
 
   /* Iconos del desktop — reducir tamaño y separación */
@@ -1006,9 +998,9 @@
     padding: 8px;
   }
   .mp-icon-box {
-    width: 56px;
-    height: 56px;
-    font-size: 28px;
+    width: 52px;
+    height: 52px;
+    font-size: 26px;
     border-radius: 14px;
   }
   .mp-icon-lbl {
@@ -1048,8 +1040,5 @@
   .mp-cv-avatar {
     width: 46px;
     height: 46px;
-  }
-  .mp-pdf-download-btn span {
-    display: none;
   }
 }
