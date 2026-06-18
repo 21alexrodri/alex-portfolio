@@ -52,12 +52,16 @@ export default function CustomCursor() {
       rafId = requestAnimationFrame(tick)
     }
 
+    // Solo ahora ocultamos el cursor nativo: si llegamos aquí, el custom funciona
+    document.body.classList.add('cc-active')
+
     document.addEventListener('mousemove',  onMove)
     document.addEventListener('mouseleave', onLeave)
     document.addEventListener('mouseenter', onEnter)
     rafId = requestAnimationFrame(tick)
 
     return () => {
+      document.body.classList.remove('cc-active')
       document.removeEventListener('mousemove',  onMove)
       document.removeEventListener('mouseleave', onLeave)
       document.removeEventListener('mouseenter', onEnter)

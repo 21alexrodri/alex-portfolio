@@ -1,6 +1,12 @@
-/* Ocultar cursor por defecto en dispositivos con puntero fino (ratón) */
+/* Ocultar cursor nativo SOLO cuando el cursor custom está activo de verdad.
+   La clase .cc-active la añade CustomCursor.jsx tras inicializarse; así, si el
+   JS no llega a ejecutarse (p. ej. prefers-reduced-motion), el cursor nativo
+   sigue visible y nunca se queda el visitante sin ningún ratón. */
 @media (pointer: fine) {
-  *, *::before, *::after {
+  body.cc-active,
+  body.cc-active *,
+  body.cc-active *::before,
+  body.cc-active *::after {
     cursor: none !important;
   }
 }
