@@ -79,9 +79,12 @@
         "period": "2025–2026",
         "title": "Especialización — IA y Big Data",
         "institution": "Institut Sa Palomera · Blanes",
-        "description": "El Curso de Especialización en Inteligencia Artificial y Big Data forma para programar y aplicar sistemas inteligentes que optimizan la gestión de la información y la explotación de datos masivos, garantizando seguridad, accesibilidad, usabilidad, calidad y cumplimiento de principios éticos y legales.\n\nMódulos: Modelos de IA, Machine Learning, Programación de IA, Sistemas de Big Data y Big Data aplicado. Trabajas principalmente con Python y herramientas como NumPy, Pandas, scikit-learn, TensorFlow, Keras, NLTK y BeautifulSoup. Aprendes algoritmos de clasificación, regresión, clustering, redes neuronales y técnicas como boosting (XGBoost, LightGBM, etc.).\n\nTambién trabajas con Docker, Hadoop, Spark y plataformas en la nube como AWS y Azure para gestionar y almacenar grandes volúmenes de datos, procesar datos masivos, visualizar y configurar cuadros de mando. Aplicas IA en negocios para mejorar productividad, automatizar procesos y gestionar la transformación digital.\n\nMi rendimiento académico y el proyecto final que desarrollé me han valido una carta de recomendación del centro, disponible a continuación.",
+        "description": "El Curso de Especialización en Inteligencia Artificial y Big Data forma para programar y aplicar sistemas inteligentes que optimizan la gestión de la información y la explotación de datos masivos, garantizando seguridad, accesibilidad, usabilidad, calidad y cumplimiento de principios éticos y legales.\n\nMódulos: Modelos de IA, Machine Learning, Programación de IA, Sistemas de Big Data y Big Data aplicado. Trabajas principalmente con Python y herramientas como NumPy, Pandas, scikit-learn, TensorFlow, Keras, NLTK y BeautifulSoup. Aprendes algoritmos de clasificación, regresión, clustering, redes neuronales y técnicas como boosting (XGBoost, LightGBM, etc.).\n\nTambién trabajas con Docker, Hadoop, Spark y plataformas en la nube como AWS y Azure para gestionar y almacenar grandes volúmenes de datos, procesar datos masivos, visualizar y configurar cuadros de mando. Aplicas IA en negocios para mejorar productividad, automatizar procesos y gestionar la transformación digital.\n\nMi rendimiento académico me ha valido la matrícula de honor del curso, y el proyecto final que desarrollé, una carta de recomendación del centro. Ambos documentos están disponibles a continuación.",
         "tags": ["Python", "TensorFlow", "scikit-learn", "Docker", "Spark", "AWS", "Azure", "Big Data", "ML"],
-        "certificate": "/img/cr_sa_palomera.pdf"
+        "certificates": [
+          { "label": "🏅 Matrícula de honor", "url": "/img/matricula_honor_sa_palomera.pdf" },
+          { "label": "✉️ Carta de recomendación", "url": "/img/cr_sa_palomera.pdf" }
+        ]
       },
       {
         "spine": "CFGS DAW",
@@ -149,7 +152,10 @@
         "tags": ["FastAPI", "LightGBM", "Ollama", "Neo4j", "PostgreSQL", "React", "MapLibre", "Docker", "Nginx"],
         "url": "https://vibe-flying.com/",
         "github": "https://github.com/21alexrodri",
-        "certificate": "/img/cr_sa_palomera.pdf"
+        "certificates": [
+          { "label": "🏅 Matrícula de honor", "url": "/img/matricula_honor_sa_palomera.pdf" },
+          { "label": "✉️ Carta de recomendación", "url": "/img/cr_sa_palomera.pdf" }
+        ]
       },
       {
         "id": "leaving-afterparty",

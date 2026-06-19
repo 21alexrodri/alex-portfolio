@@ -79,9 +79,12 @@
         "period": "2025–2026",
         "title": "Especialització — IA i Big Data",
         "institution": "Institut Sa Palomera · Blanes",
-        "description": "El Curs d'Especialització en Intel·ligència Artificial i Big Data forma per programar i aplicar sistemes intel·ligents que optimitzen la gestió de la informació i l'explotació de dades massives, garantint seguretat, accessibilitat, usabilitat, qualitat i compliment de principis ètics i legals.\n\nMòduls: Models d'IA, Machine Learning, Programació d'IA, Sistemes de Big Data i Big Data aplicat. Treballes principalment amb Python i eines com NumPy, Pandas, scikit-learn, TensorFlow, Keras, NLTK i BeautifulSoup. Aprens algorismes de classificació, regressió, clustering, xarxes neuronals i tècniques com boosting (XGBoost, LightGBM, etc.).\n\nTambé treballes amb Docker, Hadoop, Spark i plataformes al núvol com AWS i Azure per gestionar i emmagatzemar grans volums de dades, processar dades massives, visualitzar dades i configurar quadres de comandament. Apliques IA en negocis per millorar productivitat, automatitzar processos i gestionar la transformació digital.\n\nEl meu rendiment acadèmic i el projecte final que vaig desenvolupar m'han valgut una carta de recomanació del centre, disponible a continuació.",
+        "description": "El Curs d'Especialització en Intel·ligència Artificial i Big Data forma per programar i aplicar sistemes intel·ligents que optimitzen la gestió de la informació i l'explotació de dades massives, garantint seguretat, accessibilitat, usabilitat, qualitat i compliment de principis ètics i legals.\n\nMòduls: Models d'IA, Machine Learning, Programació d'IA, Sistemes de Big Data i Big Data aplicat. Treballes principalment amb Python i eines com NumPy, Pandas, scikit-learn, TensorFlow, Keras, NLTK i BeautifulSoup. Aprens algorismes de classificació, regressió, clustering, xarxes neuronals i tècniques com boosting (XGBoost, LightGBM, etc.).\n\nTambé treballes amb Docker, Hadoop, Spark i plataformes al núvol com AWS i Azure per gestionar i emmagatzemar grans volums de dades, processar dades massives, visualitzar dades i configurar quadres de comandament. Apliques IA en negocis per millorar productivitat, automatitzar processos i gestionar la transformació digital.\n\nEl meu rendiment acadèmic m'ha valgut la matrícula d'honor del curs, i el projecte final que vaig desenvolupar, una carta de recomanació del centre. Tots dos documents estan disponibles a continuació.",
         "tags": ["Python", "TensorFlow", "scikit-learn", "Docker", "Spark", "AWS", "Azure", "Big Data", "ML"],
-        "certificate": "/img/cr_sa_palomera.pdf"
+        "certificates": [
+          { "label": "🏅 Matrícula d'honor", "url": "/img/matricula_honor_sa_palomera.pdf" },
+          { "label": "✉️ Carta de recomanació", "url": "/img/cr_sa_palomera.pdf" }
+        ]
       },
       {
         "spine": "CFGS DAW",
@@ -149,7 +152,10 @@
         "tags": ["FastAPI", "LightGBM", "Ollama", "Neo4j", "PostgreSQL", "React", "MapLibre", "Docker", "Nginx"],
         "url": "https://vibe-flying.com/",
         "github": "https://github.com/21alexrodri",
-        "certificate": "/img/cr_sa_palomera.pdf"
+        "certificates": [
+          { "label": "🏅 Matrícula d'honor", "url": "/img/matricula_honor_sa_palomera.pdf" },
+          { "label": "✉️ Carta de recomanació", "url": "/img/cr_sa_palomera.pdf" }
+        ]
       },
       {
         "id": "leaving-afterparty",

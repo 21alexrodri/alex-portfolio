@@ -79,9 +79,12 @@
         "period": "2025–2026",
         "title": "Advanced Specialisation — AI & Big Data",
         "institution": "Institut Sa Palomera · Blanes",
-        "description": "This post-vocational specialisation trains you to program and apply intelligent systems that optimise information management and massive data exploitation, ensuring security, accessibility, usability, quality and compliance with ethical and legal principles.\n\nModules: AI Models, Machine Learning, AI Programming, Big Data Systems and Applied Big Data. Primarily Python-based, using NumPy, Pandas, scikit-learn, TensorFlow, Keras, NLTK and BeautifulSoup. Covers classification, regression, clustering, neural networks and boosting techniques (XGBoost, LightGBM, etc.).\n\nAlso covers Docker, Hadoop, Spark and cloud platforms (AWS, Azure) for managing large data volumes, processing massive datasets, data visualisation and dashboard configuration. Applied AI in business: productivity improvement, process automation and digital transformation management.\n\nMy academic performance and the final project I developed earned me a letter of recommendation from the institution, available below.",
+        "description": "This post-vocational specialisation trains you to program and apply intelligent systems that optimise information management and massive data exploitation, ensuring security, accessibility, usability, quality and compliance with ethical and legal principles.\n\nModules: AI Models, Machine Learning, AI Programming, Big Data Systems and Applied Big Data. Primarily Python-based, using NumPy, Pandas, scikit-learn, TensorFlow, Keras, NLTK and BeautifulSoup. Covers classification, regression, clustering, neural networks and boosting techniques (XGBoost, LightGBM, etc.).\n\nAlso covers Docker, Hadoop, Spark and cloud platforms (AWS, Azure) for managing large data volumes, processing massive datasets, data visualisation and dashboard configuration. Applied AI in business: productivity improvement, process automation and digital transformation management.\n\nMy academic performance earned me the course's honors distinction, and the final project I developed earned me a letter of recommendation from the institution. Both documents are available below.",
         "tags": ["Python", "TensorFlow", "scikit-learn", "Docker", "Spark", "AWS", "Azure", "Big Data", "ML"],
-        "certificate": "/img/cr_sa_palomera.pdf"
+        "certificates": [
+          { "label": "🏅 Honors distinction", "url": "/img/matricula_honor_sa_palomera.pdf" },
+          { "label": "✉️ Recommendation letter", "url": "/img/cr_sa_palomera.pdf" }
+        ]
       },
       {
         "spine": "Web Dev",
@@ -149,7 +152,10 @@
         "tags": ["FastAPI", "LightGBM", "Ollama", "Neo4j", "PostgreSQL", "React", "MapLibre", "Docker", "Nginx"],
         "url": "https://vibe-flying.com/",
         "github": "https://github.com/21alexrodri",
-        "certificate": "/img/cr_sa_palomera.pdf"
+        "certificates": [
+          { "label": "🏅 Honors distinction", "url": "/img/matricula_honor_sa_palomera.pdf" },
+          { "label": "✉️ Recommendation letter", "url": "/img/cr_sa_palomera.pdf" }
+        ]
       },
       {
         "id": "leaving-afterparty",

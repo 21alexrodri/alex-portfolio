@@ -163,6 +163,13 @@ function ProjectsApp() {
   const projects = t('data.projects', { returnObjects: true }) ?? []
   const [sel, setSel] = useState(null)
   const project = projects.find(p => p.id === sel)
+  const certificates = !project
+    ? []
+    : Array.isArray(project.certificates)
+      ? project.certificates
+      : project.certificate
+        ? [{ label: t('ui.books.certBtn'), url: project.certificate }]
+        : []
 
   return (
     <div className={`mp-code${project ? ' mp-code--open' : ''}`}>
@@ -223,10 +230,14 @@ function ProjectsApp() {
                   ⎇ {project.github}
                 </a>
               )}
-              {project.certificate && (
-                <a href={project.certificate} target="_blank" rel="noopener noreferrer" className="mp-code-link mp-code-cert-link">
-                  {t('ui.books.certBtn')}
-                </a>
+              {certificates.length > 0 && (
+                <div className="mp-code-certs">
+                  {certificates.map(c => (
+                    <a key={c.url} href={c.url} target="_blank" rel="noopener noreferrer" className="mp-code-link mp-code-cert-link">
+                      {c.label}
+                    </a>
+                  ))}
+                </div>
               )}
             </div>
           </div>

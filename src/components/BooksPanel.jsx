@@ -81,9 +81,11 @@ export default function BooksPanel({ onClose }) {
     width:  SIZES[i % SIZES.length].width,
     height: SIZES[i % SIZES.length].height,
     ...b,
-    certificate: b.certificate
-      ? { label: t('ui.books.certBtn'), url: b.certificate }
-      : null,
+    certificates: Array.isArray(b.certificates)
+      ? b.certificates
+      : b.certificate
+        ? [{ label: t('ui.books.certBtn'), url: b.certificate }]
+        : [],
   }))
 
   const openBook = openBookIndex !== null ? shelfBooks[openBookIndex] ?? null : null
@@ -157,10 +159,14 @@ export default function BooksPanel({ onClose }) {
                 </div>
               )}
 
-              {openBook.certificate && (
-                <a href={openBook.certificate.url} target="_blank" rel="noopener noreferrer" className="bp-cert-btn">
-                  {openBook.certificate.label}
-                </a>
+              {openBook.certificates.length > 0 && (
+                <div className="bp-cert-row">
+                  {openBook.certificates.map(c => (
+                    <a key={c.url} href={c.url} target="_blank" rel="noopener noreferrer" className="bp-cert-btn">
+                      {c.label}
+                    </a>
+                  ))}
+                </div>
               )}
             </div>
           </div>

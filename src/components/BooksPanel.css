@@ -377,7 +377,12 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* Certificate / download button */
+/* Certificate / download buttons */
+.bp-cert-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 .bp-cert-btn {
   display: inline-flex;
   align-items: center;
@@ -459,7 +464,10 @@
     line-height: 1.7;
   }
 
-  /* Botón certificado a ancho completo */
+  /* Botones de certificado apilados a ancho completo */
+  .bp-cert-row {
+    flex-direction: column;
+  }
   .bp-cert-btn {
     width: 100%;
     justify-content: center;
